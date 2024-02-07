@@ -1,0 +1,90 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import HeroSection from "@/components/HeroSection.astro";
+import AboutSection from "@/components/AboutSection.astro";
+import ServicesComponent from "@/components/ServicesComponent.astro";
+import PortfolioItem from "@/components/PortfolioItem.astro";
+import ContactButton from "@/components/ContactButton.astro";
+import { Image } from 'astro:assets'
+---
+
+<MainLayout title="shane davis" description="shane davis">
+  <HeroSection
+    hasButton={false}
+    h1="designer"
+    h2="developer"
+    p1="Get to know more about my approach, process, services and my way of working. See some of my skateboard tricks while you're at it."/>
+
+    <section>
+        <div class="container py-24">
+            <Image
+            src='/images/webworkexample.webp'
+            alt="hero"
+            width="1920"
+            height="880"
+            class="w-full h-auto object-cover rounded-lg mt-8"/>
+        </div>
+    </section>
+
+	<AboutSection 
+		hasButton={false}
+		number="1" 
+		p1="As a web designer and art director I help companies and organisations around the world connect with their audience and grow their business." 
+		p2="Projects can be done directly with clients or in a supporting role for agencies and studios from around the world."/>
+
+        <section>
+            <div class="container pb-48">
+                <div class="lg:grid grid-cols-12 grid-rows-2 gap-y-10">
+                    <!-- row 1 -->
+                    <div class="hidden lg:block col-start-5 col-span-1 font-medium">01.</div>
+                    <div class="col-start-6 col-span-5">
+                        <h3 class="font-medium pb-4">Defining the business goal and strategic direction</h3>
+                        <p class="text-gray-500 font-medium mb-24 lg:mb-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi distinctio porro laborum. Eos nostrum eius explicabo magnam, quasi eum ipsum ut molestias harum eveniet nemo deleniti corrupti at voluptatem. Neque!
+                        </p>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="hidden lg:block col-start-5 col-span-1 font-medium">02.</div>
+                    <div class="col-start-6 col-span-5">
+                        <h3 class="font-medium pb-4">Defining the business goal and strategic direction</h3>
+                        <p class="text-gray-500 font-medium">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta dolorem quos adipisci accusantium perferendis velit dolor, corrupti nam esse sunt maxime qui praesentium nihil ipsum minus obcaecati laudantium assumenda sed pariatur dolorum quidem. Accusantium rem voluptates consequatur placeat, eius dolores!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-48">
+                <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-8 lg:gap-0 py-12">
+                    <h2 class="text-6xl lg:text-9xl font-bold capitalize">
+                        services
+                    </h2>
+                    <div>
+                        <ContactButton />
+                    </div>
+                </div>
+                <ServicesComponent />
+            </div>
+        </section>
+
+        <AboutSection 
+            hasButton={false}
+            number="1" 
+            p1="As a web designer and art director I help companies and organisations around the world connect with their audience and grow their business." 
+            p2=""/>
+
+        <PortfolioItem
+            client="Starbucks"
+            image="/images/webworkexample.webp"
+            description="Ecommerce website for Seattle based coffeeshop"
+            date="2021"/>
+
+        <AboutSection 
+            hasButton={true}
+            number="1" 
+            p1="As a web designer and art director I help companies and organisations around the world connect with their audience and grow their business." 
+            p2="Projects can be done directly with clients or in a supporting"/>
+
+</MainLayout>

@@ -1,0 +1,26 @@
+---
+const { hasButton, number, p1, p2 } = Astro.props;
+// import ContactButton from "./ContactButton";
+import ContactButton from "./ContactButton.astro";
+---
+<section class="py-24">
+    <div class="container">
+        <div class="lg:grid lg:grid-cols-12 flex flex-col gap-4 lg:gap-0">
+            <span class="font-medium text-lg col-start-1 col-span-1">(00{number})</span>
+            <div class="flex flex-col gap-12 lg:col-start-5 lg:col-span-7">
+                <p class="font-medium text-2xl lg:text-4xl ">
+                    {p1}
+                </p>
+                <p class="font-medium text-2xl lg:text-4xl col-start-5 col-span-7 lg:py-12">
+                    {p2}
+                </p>
+
+                {
+                    hasButton && (
+                        <ContactButton/>
+                    )
+                }
+            </div>
+        </div>
+    </div>
+</section>

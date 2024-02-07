@@ -1,0 +1,23 @@
+---
+import ContactButton from "./ContactButton.astro"
+import AnimatedHeader from "./AnimatedHeading";
+
+const { h1, h2, p1, hasButton } = Astro.props;
+---
+
+<section>
+
+</section>
+<section>
+    <div class="container py-10 flex flex-col gap-8">
+        <div class="flex gap-2 sm:block">
+            <!-- <h1 class="hidden sm:block lg:block text-4xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight">{h1}</h1>
+            <h1 class="text-4xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight">{h2}</h1> -->
+            <AnimatedHeader h1="shane davis" h2="web developer" client:visible/>
+        </div>
+        <p class="animate-fadeIn opacity-0 w-full lg:w-6/12 text-[20px] lg:text-4xl font-medium leading-none lg:leading-tight">
+            {p1}
+        </p>
+        {hasButton && <ContactButton/>}
+    </div>
+</section>

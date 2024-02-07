@@ -1,0 +1,43 @@
+[
+    {
+      "client": "Custo",
+      "slug": "custo",
+      "url":"https://google.com",
+      "numImages":10,
+      "image": "/images/webworkexample.webp",
+      "description": "Ecommerce website for the first smart mailbox.",
+      "date": "2023",
+      "services": ["Design", "Development", "Art Direction"]
+    },
+    {
+      "client": "Motto",
+      "slug": "motto",
+      "url":"https://google.com",
+      "numImages":9,
+      "image": "/images/webworkexample.webp",
+      "description": "Online experience designed for modular housing company Ark Shelter.",
+      "date": "2022",
+      "services": ["Design", "Development", "Art Direction"]
+    },
+    {
+      "client": "Ray",
+      "slug": "ray",
+      "url":"https://google.com",
+      "numImages":8,
+      "image": "/images/webworkexample.webp",
+      "description": "Tech blog with the latest trends and gadget reviews.",
+      "date": "2022",
+      "services": ["Design", "Development", "Art Direction"]
+    },
+    {
+      "client": "Ark Shelter",
+      "slug": "ark-shelter",
+      "url":"https://google.com",
+      "numImages":9,
+      "image": "/images/webworkexample.webp",
+      "description": "Subscription service for healthy snacks and meal plans.",
+      "date": "2021",
+      "services": ["Design", "Development", "Art Direction"]
+    }
+  ]
+  
