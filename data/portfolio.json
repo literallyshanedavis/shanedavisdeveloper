@@ -5,7 +5,8 @@
       "url":"https://google.com",
       "numImages":10,
       "image": "/images/webworkexample.webp",
-      "description": "Ecommerce website for the first smart mailbox.",
+      "headline": "Ecommerce website for the first smart mailbox.",
+      "description": "Custo is building the first ever smart mailbox. They focus on bringing a product that is not only safe and practical but also beautiful by design. The website and art direction is a reflection of those attributes.",
       "date": "2023",
       "services": ["Design", "Development", "Art Direction"]
     },
@@ -15,7 +16,8 @@
       "url":"https://google.com",
       "numImages":9,
       "image": "/images/webworkexample.webp",
-      "description": "Online experience designed for modular housing company Ark Shelter.",
+      "headline": "Agency website designed for Motto®, global branding agency.",
+      "description": "Motto® is a global branding agency founded by Sunny and Ashleigh. Besides their branding services they also do a lot of public speaking. The website let's this all shine in a fun way with a lot micro interactions.",
       "date": "2022",
       "services": ["Design", "Development", "Art Direction"]
     },
@@ -25,7 +27,8 @@
       "url":"https://google.com",
       "numImages":8,
       "image": "/images/webworkexample.webp",
-      "description": "Tech blog with the latest trends and gadget reviews.",
+      "headline": "Ecommerce website designed for healthy selfcare brand Ray®.",
+      "description": "Ray® is a selfcare brand that makes products good for your health and for the planet. Besides the design of the website I also helped them out with the art direction, visual identity and packaging design.",
       "date": "2022",
       "services": ["Design", "Development", "Art Direction"]
     },
@@ -35,7 +38,8 @@
       "url":"https://google.com",
       "numImages":9,
       "image": "/images/webworkexample.webp",
-      "description": "Subscription service for healthy snacks and meal plans.",
+      "headline": "Online experience designed for modular housing company Ark Shelter.",
+      "description": "Ark Shelter builds beautiful designed cabines which you can live in, in nature or use as a cabin in your own backyard. The design of the website reflects the values and overal feel of their product.",
       "date": "2021",
       "services": ["Design", "Development", "Art Direction"]
     }
