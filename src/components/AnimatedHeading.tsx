@@ -20,7 +20,7 @@ const AnimatedHeader: React.FC<AnimatedHeaderProps> = ({ h1, h2 }) => {
   };
 
   return (
-    <div className="flex gap-2 sm:block">
+    <div className="flex gap-y-2 sm:block">
       <div className="overflow-hidden">
         <motion.h1
           className="hidden sm:block text-4xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight"
