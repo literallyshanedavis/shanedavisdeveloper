@@ -23,7 +23,7 @@ const AnimatedHeader: React.FC<AnimatedHeaderProps> = ({ h1, h2 }) => {
     <div className="flex gap-y-2 sm:block">
       <div className="overflow-hidden">
         <motion.h1
-          className="hidden sm:block text-4xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight"
+          className="hidden sm:block text-5xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight"
           variants={textVariants}
           initial="hidden"
           animate="visible"
@@ -34,7 +34,7 @@ const AnimatedHeader: React.FC<AnimatedHeaderProps> = ({ h1, h2 }) => {
       </div>
       <div className="overflow-hidden">
         <motion.h1
-          className="text-4xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight"
+          className="text-5xl sm:text-6xl lg:text-9xl font-bold uppercase tracking-tight"
           variants={textVariants}
           initial="hidden"
           animate="visible"
