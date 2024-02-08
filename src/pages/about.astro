@@ -1,11 +1,11 @@
 ---
-import MainLayout from "@/layouts/MainLayout.astro";
-import HeroSection from "@/components/HeroSection.astro";
-import AboutSection from "@/components/AboutSection.astro";
-import ServicesComponent from "@/components/ServicesComponent.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import HeroSection from "../components/HeroSection.astro";
+import AboutSection from "../components/AboutSection.astro";
+import ServicesComponent from "../components/ServicesComponent.astro";
 import portfolioItems from "../../data/portfolio.json";
-import PortfolioItem from "@/components/PortfolioItem.astro";
-import ContactButton from "@/components/ContactButton";
+import PortfolioItem from "../components/PortfolioItem.astro";
+import ContactButton from "../components/ContactButton";
 import { Image } from 'astro:assets'
 
 console.log("portfolioItems", `/images/${portfolioItems[0].client}/1.webp`)
