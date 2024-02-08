@@ -2,25 +2,25 @@
 const services = [
     {
         title: 'Information architecture',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis incidunt in repellendus quas totam velit unde, iste ex non?'
+        description: "We will examine the content that needs to be included on the site, identify what doesn't, and decide the placement of content across different pages. By considering the structure through the lens of user funnels, we will map out a user journey that leads to conversion."
     },
     {
-        title: 'Web design',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis incidunt in repellendus quas totam velit unde, iste ex non?'
+        title: 'Web design/Art direction',
+        description: "Should you already have a visual identity, we'll proceed to the visual design phase. If it's yet to be established, I will take on the role of art director during the homepage design process. Rest assured, websites are always designed with both desktop and mobile users in mind."
     },
     {
-        title: 'Web development',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis incidunt in repellendus quas totam velit unde, iste ex non?'
+        title: 'Web development/Animation',
+        description: "In this stage, we determine the dynamics and interactions within the website. This includes page transitions, loading animations, hover effects on buttons, scroll animations, and more. All of these elements are crafted with the strategic vision of your brand as the guiding principle."
     }
 ]
 ---
 
-<div class="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-y-24 col-rows-3 py-12">
+<div class="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-y-12 col-rows-3 pt-24">
    {services.map((service, index) =>
    <div class="col-start-1 col-span-12 h-px bg-gray-200"></div>
     <span class="hidden lg:block col-start-1 col-span-1">0{index+1}.</span>
     <span class="text-3xl w-2/3 lg:w-full lg:text-4xl font-medium col-start-3 col-span-3">{service.title}</span>
-    <p class="text-gray-500 font-medium col-start-8 col-span-4 pb-24 lg:mb-0">
+    <p class="text-gray-500 font-medium col-start-8 col-span-4 pb-12 lg:mb-0">
         {service.description}
     </p>
    )}

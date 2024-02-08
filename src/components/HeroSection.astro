@@ -19,6 +19,6 @@ const { h1, h2, p1, hasButton } = Astro.props;
         <p class="animate-fadeIn opacity-0 w-full lg:w-6/12 text-[20px] lg:text-4xl font-medium leading-none lg:leading-tight">
             {p1}
         </p>
-        {hasButton && <ContactButton/>}
+        {hasButton && <ContactButton client:idle/>}
     </div>
 </section>

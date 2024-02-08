@@ -2,7 +2,7 @@
     {
       "client": "Custo",
       "slug": "custo",
-      "url":"https://google.com",
+      "url":"https://custo.io/",
       "numImages":10,
       "image": "/images/webworkexample.webp",
       "headline": "Ecommerce website for the first smart mailbox.",
@@ -13,7 +13,7 @@
     {
       "client": "Motto",
       "slug": "motto",
-      "url":"https://google.com",
+      "url":"https://wearemotto.com/",
       "numImages":9,
       "image": "/images/webworkexample.webp",
       "headline": "Agency website designed for Motto®, global branding agency.",
@@ -24,7 +24,7 @@
     {
       "client": "Ray",
       "slug": "ray",
-      "url":"https://google.com",
+      "url":"https://wearemotto.com/",
       "numImages":8,
       "image": "/images/webworkexample.webp",
       "headline": "Ecommerce website designed for healthy selfcare brand Ray®.",
@@ -35,7 +35,7 @@
     {
       "client": "Ark Shelter",
       "slug": "ark-shelter",
-      "url":"https://google.com",
+      "url":"https://www.ark-shelter.com/en",
       "numImages":9,
       "image": "/images/webworkexample.webp",
       "headline": "Online experience designed for modular housing company Ark Shelter.",

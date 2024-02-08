@@ -1,7 +1,7 @@
 ---
 const { hasButton, number, p1, p2 } = Astro.props;
-// import ContactButton from "./ContactButton";
-import ContactButton from "./ContactButton.astro";
+import ContactButton from "./ContactButton";
+// import ContactButton from "./ContactButton.astro";
 ---
 <section class="py-24">
     <div class="container">
@@ -17,7 +17,7 @@ import ContactButton from "./ContactButton.astro";
 
                 {
                     hasButton && (
-                        <ContactButton/>
+                        <ContactButton client:idle/>
                     )
                 }
             </div>
