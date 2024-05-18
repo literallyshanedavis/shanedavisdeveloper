@@ -4,7 +4,7 @@ export default function ContactButton() {
   const [isHovering, setIsHovering] = useState(false);
   const [copySuccess, setCopySuccess] = useState('');
   const [isMobile, setIsMobile] = useState(false); // Detect if the user is on a mobile device
-  const email = "hello@shanedavis.co.uk";
+  const email = "hello@exactly-that.com";
 
   useEffect(() => {
     // Function to determine if the device is mobile based on screen width
@@ -42,17 +42,17 @@ export default function ContactButton() {
     <div className='animate-fadeInDelay opacity-0'>
       {isMobile ? (
         // Render as a simple clickable mailto link for mobile devices
-        <a href={`mailto:${email}`} className="w-[270px] rounded-full border-black border-[1px] flex items-center justify-center px-8 py-4 cursor-pointer">
+        <a href={`mailto:${email}`} className="w-[280px] rounded-full border-black border-[1px] flex items-center justify-center px-8 py-4 cursor-pointer">
           <span className="font-medium text-lg">{email}</span>
         </a>
       ) : (
         // Render the interactive button for desktop devices
         <div 
-          className={`group w-[270px] rounded-full border-black ${copySuccess ? 'border-0': 'border-[1px]'} flex items-center justify-center px-8 py-4 cursor-pointer relative overflow-hidden`}>
+          className={`group w-[280px] rounded-full border-black ${copySuccess ? 'border-0': 'border-[1px]'} flex items-center justify-center px-8 py-4 cursor-pointer relative overflow-hidden`}>
           <span className="font-medium text-lg">{email}</span>
           <div 
             onClick={copyToClipboard} 
-            className={`z-50 absolute bottom-0 left-0 right-0 w-[270px] rounded-full translate-y-24 duration-500 group-hover:translate-y-0 ease-in-out transition-all ${copySuccess ? 'bg-green-600 text-white' : 'bg-black border-black border-[1px] text-white'} flex items-center justify-center px-8 py-4 cursor-pointer`}>
+            className={`z-50 absolute bottom-0 left-0 right-0 w-[280px] rounded-full translate-y-24 duration-500 group-hover:translate-y-0 ease-in-out transition-all ${copySuccess ? 'bg-green-600 text-white' : 'bg-black border-black border-[1px] text-white'} flex items-center justify-center px-8 py-4 cursor-pointer`}>
             <span className="font-medium text-lg">{copySuccess ? copySuccess : "Copy to clipboard"}</span>
           </div>
         </div>
